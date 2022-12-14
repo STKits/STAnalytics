@@ -1,0 +1,6 @@
+framework module STAnalytics {
+  umbrella header "STAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

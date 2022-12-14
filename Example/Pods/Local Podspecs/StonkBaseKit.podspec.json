@@ -1,0 +1,52 @@
+{
+  "name": "StonkBaseKit",
+  "version": "0.1.0",
+  "summary": "基础组件",
+  "description": "Stonk项目基础组件",
+  "homepage": "http://52.13.209.11/stonk/StonkBaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cnjsyyb": "cnjsyyb@163.com"
+  },
+  "source": {
+    "git": "http://52.13.209.11/stonk/StonkBaseKit.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "StonkBaseKit/Classes/**/*",
+  "resources": [
+    "StonkBaseKit/Assets/*"
+  ],
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "DeviceKit": [
+
+    ],
+    "Reusable": [
+
+    ],
+    "FDFullscreenPopGesture": [
+      "1.1"
+    ],
+    "NVActivityIndicatorView": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "ObjectMapper": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

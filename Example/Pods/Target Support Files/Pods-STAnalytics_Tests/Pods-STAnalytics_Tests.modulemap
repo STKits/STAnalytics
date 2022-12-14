@@ -1,0 +1,6 @@
+framework module Pods_STAnalytics_Tests {
+  umbrella header "Pods-STAnalytics_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
