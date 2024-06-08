@@ -40,6 +40,8 @@ public class STAnalytics : NSObject {
 //        self.swizzleMethods()
     }
     
+    // MARK: - =====Public=====
+    
     public func track(_ eventName: String, properties: [String:Any]?) {
         var event = [String:Any]()
         // 事件名
@@ -98,6 +100,7 @@ public class STAnalytics : NSObject {
         self.trackTimer.trackTimerEnd(eventId: eventName, properties: properties)
     }
     
+    // MARK: - ======Private=====
     private func initTrackTimer() {
         _ = trackTimer
     }

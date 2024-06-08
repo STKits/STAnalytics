@@ -1,9 +1,9 @@
 {
   "name": "STAnalytics",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "埋点库",
   "description": "数据采集埋点",
-  "homepage": "https://github.com/cnjsyyb/STAnalytics",
+  "homepage": "https://github.com/STKits/STAnalytics",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "cnjsyyb": "cnjsyyb@163.com"
   },
   "source": {
-    "git": "https://github.com/cnjsyyb/STAnalytics.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/STKits/STAnalytics.git",
+    "tag": "0.1.1"
   },
   "swift_versions": [
     "5.0"
@@ -21,15 +21,17 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "STAnalytics/Classes/**/*",
-  "static_framework": true,
-  "dependencies": {
-    "Firebase/AnalyticsWithoutAdIdSupport": [
-
-    ],
-    "Firebase/Crashlytics": [
-
+  "resources": "STAnalytics/Assets/*.{png,bundle}",
+  "resource_bundles": {
+    "STAnalytics_Privacy": [
+      "STAnalytics/Classes/PrivacyInfo.xcprivacy"
     ]
   },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "STAnalytics/Classes/*.swift"
+    }
+  ],
   "swift_version": "5.0"
 }
